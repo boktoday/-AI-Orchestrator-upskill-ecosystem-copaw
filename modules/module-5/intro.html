@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 5: Knowledge Check & Practice</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+  .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+  header { text-align: center; margin-bottom: 2rem; }
+  .badge { display: inline-block; background: #8b5cf6; color: white; padding: 0.3rem 1rem; border-radius: 2rem; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
+  h1 { font-size: 2.5rem; background: linear-gradient(135deg, #a78bfa, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+  .subtitle { color: #94a3b8; font-size: 1.1rem; margin-bottom: 1.5rem; }
+  .question-card { background: linear-gradient(135deg, #1e1b4b, #2e1065); border: 1px solid #8b5cf6; border-radius: 1.5rem; padding: 2.5rem; margin-bottom: 2rem; text-align: center; }
+  .question-card h2 { color: #c4b5fd; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.5rem; }
+  .question { font-size: 1.5rem; font-weight: 700; color: #f8fafc; line-height: 1.4; }
+  .question span { color: #a78bfa; }
+  .question-card p.note { color: #94a3b8; font-size: 0.95rem; margin-top: 1.5rem; }
+  .images-section h3 { color: #a78bfa; margin-bottom: 1rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .images-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .image-card { background: #1e293b; border-radius: 1rem; overflow: hidden; border: 1px solid #334155; transition: transform 0.2s, border-color 0.2s; }
+  .image-card:hover { transform: translateY(-2px); border-color: #8b5cf6; }
+  .image-card img { width: 100%; height: 200px; object-fit: cover; display: block; }
+  .image-card .caption { padding: 0.75rem 1rem; font-size: 0.85rem; color: #94a3b8; }
+  .image-card.full { grid-column: 1 / -1; }
+  .image-card.full img { height: 280px; }
+  .projects-section { background: #1e293b; border-radius: 1rem; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid #334155; }
+  .projects-section h3 { color: #a78bfa; margin-bottom: 1rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .project { background: #0f172a; border-radius: 0.75rem; padding: 1rem; margin-bottom: 0.75rem; border-left: 3px solid #8b5cf6; }
+  .project strong { color: #c4b5fd; }
+  .project p { color: #94a3b8; font-size: 0.9rem; margin-top: 0.25rem; }
+  .nav { display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #334155; }
+  .nav a { background: #1e293b; color: #a78bfa; padding: 0.75rem 1.5rem; border-radius: 0.75rem; text-decoration: none; border: 1px solid #334155; font-weight: 600; transition: all 0.2s; }
+  .nav a:hover { background: #334155; border-color: #8b5cf6; }
+  footer { text-align: center; margin-top: 3rem; color: #475569; font-size: 0.8rem; }
+  @media (max-width: 600px) { .images-grid { grid-template-columns: 1fr; } h1 { font-size: 1.8rem; } .question { font-size: 1.2rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="badge">🎯 Module 5 of 5</div>
+    <h1>Knowledge Check & Practice</h1>
+    <p class="subtitle">Test your knowledge and build something real</p>
+  </header>
+
+  <div class="question-card">
+    <h2>💬 Final Reflection</h2>
+    <p class="question">
+      You've come this far — what's the <span>one thing</span> you now understand<br>
+      about AI agents that you didn't before Module 1?
+    </p>
+    <p class="note">This is your anchor insight. Hold onto it.</p>
+  </div>
+
+  <div class="images-section">
+    <h3>📸 Visual Guide — 8 Skechnotes</h3>
+    <div class="images-grid">
+      <div class="image-card full">
+        <img src="../assets/module-5-advanced-topics/images/upskill-m5-overview.png" alt="Module 5 Overview">
+        <div class="caption">🎯 Module 5 Overview — Putting It All Together</div>
+      </div>
+      <div class="image-card">
+        <img src="../assets/module-5-advanced-topics/images/upskill-m5-thought-partner.png" alt="Thought Partner">
+        <div class="caption">🤝 AI as a Thought Partner — Beyond Automation</div>
+      </div>
+      <div class="image-card">
+        <img src="../assets/module-5-advanced-topics/images/upskill-module5-multi-agent-workflow.png" alt="Multi-Agent Workflow">
+        <div class="caption">🌐 Multi-Agent Workflows — Coordination Patterns</div>
+      </div>
+      <div class="image-card">
+        <img src="../assets/module-5-advanced-topics/images/upskill-m5-ai-portfolio.png" alt="AI Portfolio">
+        <div class="caption">📁 Your AI Portfolio — Evidence of What You've Built</div>
+      </div>
+      <div class="image-card">
+        <img src="../assets/module-5-advanced-topics/images/module5-project-workflow.png" alt="Project Workflow">
+        <div class="caption">🔄 Project Workflow — From Idea to Deployed Agent</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects-section">
+    <h3>🚀 Capstone Projects — Choose One</h3>
+    <div class="project">
+      <strong>Project 1: Personal AI Assistant</strong>
+      <p>Build an AI agent tailored to your specific workflow — research assistant, writing partner, or productivity enhancer.</p>
+    </div>
+    <div class="project">
+      <strong>Project 2: Multi-Agent System</strong>
+      <p>Design a system of agents that work together — a researcher, a writer, and an editor, for example.</p>
+    </div>
+    <div class="project">
+      <strong>Project 3: AI Strategy Brief</strong>
+      <p>Create a strategic document proposing AI adoption for your organisation, including use cases, ROI analysis, and ethical framework.</p>
+    </div>
+  </div>
+
+  <div class="nav">
+    <a href="../module-4/intro.html">← Module 4: Strategy & Application</a>
+    <span style="color:#475569;">You're Done! 🎉</span>
+  </div>
+
+  <footer>
+    <p>AI Orchestrator Upskill — CoPaw Edition</p>
+  </footer>
+</div>
+</body>
+</html>
