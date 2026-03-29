@@ -1,0 +1,35 @@
+{
+  "studentId": "student-001",
+  "createdAt": "2026-03-29T00:00:00Z",
+  "updatedAt": "2026-03-29T00:00:00Z",
+  "name": "Sample Student",
+  "discovery": {
+    "currentRole": "Marketing Manager",
+    "currentIndustry": "Retail E-commerce",
+    "targetRole": "AI Product Manager",
+    "hasBusiness": false,
+    "businessGoals": [],
+    "personalContext": "Full-time job, studying on evenings and weekends",
+    "learningStyle": "visual",
+    "timeAvailable": "weekend",
+    "priorKnowledge": "some_exposure",
+    "aiToolsUsed": ["ChatGPT", "Claude"],
+    "goals": "Understand AI agents deeply enough to pivot career; apply AI to marketing workflows at work"
+  },
+  "settings": {
+    "notificationsEnabled": true,
+    "reviewReminderCadence": "weekly",
+    "preferredSessionLength": "3hrs",
+    "language": "en"
+  },
+  "curriculum": {
+    "generatedAt": "2026-03-29T00:00:00Z",
+    "path": "Full 5-Module Path",
+    "customisations": [
+      "Focus on practical marketing applications throughout all modules",
+      "Emphasise project-based learning — real deliverables for their portfolio",
+      "Add extra spaced repetition for Module 1 terminology",
+      "Fast-track through Era 1/2 history — focus on Agentic AI"
+    ]
+  }
+}
